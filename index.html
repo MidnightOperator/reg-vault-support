@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reg Vault — Support</title>
+<style>
+  :root {
+    --navy: #003399;
+    --navy-deep: #00224d;
+    --yellow: #ffce00;
+    --ink: #1a1d22;
+    --ink-dim: #5a6472;
+    --bg: #ffffff;
+    --surface: #f7f8fa;
+    --border: #e3e6ea;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 8px; }
+  .mark {
+    width: 44px; height: 44px; border-radius: 12px;
+    background: var(--navy-deep);
+    display: flex; align-items: center; justify-content: center;
+    color: var(--yellow); font-weight: 800; font-size: 18px;
+    flex-shrink: 0;
+  }
+  h1 { font-size: 1.6rem; margin: 0; letter-spacing: -0.01em; }
+  .tagline { color: var(--ink-dim); margin: 2px 0 0; font-size: 0.95rem; }
+  h2 { font-size: 1.1rem; margin: 40px 0 10px; }
+  p { margin: 0 0 14px; }
+  ul { margin: 0 0 14px; padding-left: 1.3em; }
+  li { margin-bottom: 6px; }
+  a { color: var(--navy); font-weight: 600; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 22px;
+    margin-top: 10px;
+  }
+  .card h3 { margin: 0 0 6px; font-size: 1rem; }
+  .card p { margin: 0; color: var(--ink-dim); font-size: 0.95rem; }
+  footer {
+    margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--border);
+    color: var(--ink-dim); font-size: 0.85rem;
+  }
+  footer a { color: var(--ink-dim); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="mark">RV</div>
+    <div>
+      <h1>Reg Vault</h1>
+      <p class="tagline">Support</p>
+    </div>
+  </header>
+
+  <p>Reg Vault keeps your vehicles' number plates one tap away, for the moment you need one and the car isn't nearby. This page covers how the app works and how to get in touch if something's wrong.</p>
+
+  <h2>Contact</h2>
+  <p>For bugs, feature requests, or anything else: <a href="mailto:garypotter10@gmail.com">garypotter10@gmail.com</a>. You can also reach this from inside the app — Settings → Send Feedback.</p>
+
+  <h2>How it works</h2>
+
+  <div class="card">
+    <h3>Adding a vehicle</h3>
+    <p>Tap the + button, enter the plate, make/model, and an optional nickname. Favoriting a vehicle makes it the default for the Home Screen widget and Siri.</p>
+  </div>
+  <div class="card">
+    <h3>Copying a plate</h3>
+    <p>Tap any saved vehicle in the list to copy its plate to your clipboard immediately — no extra screens or confirmation needed.</p>
+  </div>
+  <div class="card">
+    <h3>Home Screen widget</h3>
+    <p>Long-press your Home Screen → Edit → add Reg Vault. Tapping the widget copies a plate without opening the app. Long-press the widget itself → Edit Widget to choose which saved vehicle it shows.</p>
+  </div>
+  <div class="card">
+    <h3>Siri &amp; Shortcuts</h3>
+    <p>Say "Copy my plate in Reg Vault," or name a specific vehicle: "Copy my [vehicle name] plate in Reg Vault."</p>
+  </div>
+  <div class="card">
+    <h3>iCloud sync</h3>
+    <p>If you're signed into iCloud, your saved vehicles sync automatically across your devices. Check Settings → iCloud Sync to confirm it's active.</p>
+  </div>
+  <div class="card">
+    <h3>MOT &amp; tax reminders</h3>
+    <p>Set a due date for either in Add/Edit Vehicle, choose how far in advance to be reminded, and Reg Vault sends a local notification — no account or internet connection required for this to work.</p>
+  </div>
+
+  <h2>Common questions</h2>
+  <p><strong>Does Reg Vault require an account?</strong> No — there's no sign-up, login, or account of any kind.</p>
+  <p><strong>Is my data backed up anywhere I don't control?</strong> No. Your data lives on your device and, if you use it, your own iCloud account. See the <a href="privacy.html">Privacy Policy</a> for details.</p>
+  <p><strong>Why didn't my MOT/Tax reminder fire?</strong> Check that notifications are allowed for Reg Vault in iOS Settings → Notifications, and that a lead time (not "No Reminder") is selected for that date.</p>
+
+  <footer>
+    <p>Reg Vault · <a href="privacy.html">Privacy Policy</a></p>
+  </footer>
+</div>
+</body>
+</html>

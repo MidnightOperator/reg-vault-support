@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reg Vault — Privacy Policy</title>
+<style>
+  :root {
+    --navy: #003399;
+    --navy-deep: #00224d;
+    --yellow: #ffce00;
+    --ink: #1a1d22;
+    --ink-dim: #5a6472;
+    --bg: #ffffff;
+    --surface: #f7f8fa;
+    --border: #e3e6ea;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 8px; }
+  .mark {
+    width: 44px; height: 44px; border-radius: 12px;
+    background: var(--navy-deep);
+    display: flex; align-items: center; justify-content: center;
+    color: var(--yellow); font-weight: 800; font-size: 18px;
+    flex-shrink: 0;
+  }
+  h1 { font-size: 1.6rem; margin: 0; letter-spacing: -0.01em; }
+  .tagline { color: var(--ink-dim); margin: 2px 0 0; font-size: 0.95rem; }
+  h2 { font-size: 1.1rem; margin: 36px 0 10px; }
+  p { margin: 0 0 14px; }
+  ul { margin: 0 0 14px; padding-left: 1.3em; }
+  li { margin-bottom: 6px; }
+  a { color: var(--navy); font-weight: 600; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .summary {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px 22px;
+    margin: 20px 0 8px;
+    font-weight: 600;
+  }
+  footer {
+    margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--border);
+    color: var(--ink-dim); font-size: 0.85rem;
+  }
+  footer a { color: var(--ink-dim); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="mark">RV</div>
+    <div>
+      <h1>Reg Vault</h1>
+      <p class="tagline">Privacy Policy</p>
+    </div>
+  </header>
+
+  <p>Last updated: 5 November 2026</p>
+
+  <div class="summary">Reg Vault does not collect, transmit, or sell any of your data, to the developer or to anyone else.</div>
+
+  <h2>What Reg Vault stores</h2>
+  <p>The vehicles you save — plate, make/model, nickname, favorite status, and any MOT/tax dates you enter — are stored only in Apple's standard on-device app storage (<code>UserDefaults</code>, shared between the app and its Home Screen widget via an App Group, which is how the widget can show your data). This information never leaves your device except as described below.</p>
+
+  <h2>iCloud sync</h2>
+  <p>If you're signed into iCloud on your device, Reg Vault uses Apple's <code>NSUbiquitousKeyValueStore</code> to sync your saved vehicles across your own devices. This transfer happens entirely within Apple's iCloud infrastructure, under your Apple ID and Apple's own privacy policy — the developer has no access to this data at any point, in transit or at rest.</p>
+
+  <h2>Notifications</h2>
+  <p>MOT and tax reminders are scheduled as local notifications on your device using Apple's <code>UserNotifications</code> framework. No information about your vehicles, reminders, or notification activity is sent anywhere — scheduling and delivery happen entirely on-device.</p>
+
+  <h2>What Reg Vault does not do</h2>
+  <ul>
+    <li>No account, sign-up, or login of any kind</li>
+    <li>No analytics, crash reporting, or usage tracking</li>
+    <li>No advertising or ad networks</li>
+    <li>No third-party SDKs with network access</li>
+    <li>No data sold or shared with anyone</li>
+  </ul>
+
+  <h2>Siri &amp; Shortcuts</h2>
+  <p>When you use a Siri phrase or Shortcut to copy a plate, that request is processed by Apple's on-device Siri/Shortcuts system to identify which saved vehicle you mean, the same as any other app that supports App Intents. Reg Vault itself still never transmits your data anywhere.</p>
+
+  <h2>Children's privacy</h2>
+  <p>Reg Vault does not knowingly collect information from anyone, including children, because it does not collect information from anyone at all.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy ever changes — for example, if a future version of the app adds a feature that does involve data leaving your device — this page will be updated and the "last updated" date above will change accordingly.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:garypotter10@gmail.com">garypotter10@gmail.com</a>.</p>
+
+  <footer>
+    <p>Reg Vault · <a href="index.html">Support</a></p>
+  </footer>
+</div>
+</body>
+</html>
